@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta name="auteur" content="Ibrahima SANKARA">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="keywords" content="Ibrahima Sankara, Pathiri, ISSP" />
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+
+    <title>Projet DCLIC</title>
+
+
+
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="menu">
+          <span class="NomPrenom">SANKARA Ibrahima</span>
+          <ul class="barnav">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="projets.html">Projets</a></li>
+            <li><a href="competence.html">Compétences</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+</header>
+
+<!--Accueil-->
+<div class="apropos">
+    <div class="contenu">
+        <p class="par1">
+            Je suis <strong>Ibrahima</strong>, Développeur en devénir
+            passionné par le web et le disign ! <br> <br>
+
+            <button onclick="window.location.href = 'projet.html';">Voir mes projets</button>
+        </p>
+    </div>
+
+    <div class="box-image">
+            <img src="20892632.jpg" alt="Une image montrant developpement web">
+    </div>
+
+</div >
+
+<br><br><br>
+
+
+<!--A Propos-->
+
+<div id="apropos_content">
+
+    <h1>A propos</h1>
+
+        <div class="avant_propos">
+            
+
+            <div class="content_apropos">
+                <p>Je m'appelle <strong>Sankara Ibrahima</strong>, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant en <strong>développement web</strong>, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.</p> <br><br>
+
+                <a download="CV_Ibrahima" href="CV_Ibrahima_Sankara.pdf" class="telechargement">Télécharger mon CV</a>
+
+            </div>
+
+            <div class="img_apropos">
+                <img src="ibphoto.jpg" alt="Photo de profil de mon CV">
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<br><br><br>
+<!--Mes projets-->
+
+<section class="projets">
+    <h1>Mes projets</h1>
+
+    <div id="mesprojet">
+
+        <div class="projet1">
+            <P id="projet1">Le calcul du paiement mensuel du prêt hypothécaire <br> <br>
+                #HTML #CSS #JS <br><br>
+                <a href="calculateur_pret.html">Voir le projet</a>
+            </P>
+        </div>
+
+        <div class="projet2">
+            <p id="projet2">
+                Affichage actualisé de l'heure du système à chaque seconde. <br> <br>
+                #HTML #CSS #JS <br><br>
+                <a href="temps_reel.html">Voir le projet</a>
+            </p>
+        </div>
+
+        <div class="projet3">
+            <p id="projet3">
+                Page avec une liste non ordonnée, une photo et une tableau. <br> <br>
+                #HTML #CSS #JS <br><br>
+                <a href="synthese.html">Voir le projet</a>
+            </p>
+        </div>
+
+    </div>
+
+
+</section>
+
+<br><br><br>
+
+
+<!--Mes compétences-->
+
+<section class="competences">
+    <h3>Mes compétences</h3>
+    <div class="liste_competence">
+
+        <div class="statistique">
+            <h4>Mes compétences en statistique</h4>
+            <h2>Python</h2>
+            <div class="progress-container">
+                <div class="stat1">80%</div>
+            </div>
+
+            <h2>R Studio</h2>
+            <div class="progress-container">
+                <div class="stat2">100%</div>
+            </div>
+
+            <h2>STATA</h2>
+            <div class="progress-container">
+                <div class="stat3">90%</div>
+            </div>
+
+        </div>
+            
+        <div class="dev_web">
+            <h4>Mes compétences en devéloppement</h4>
+            <h2>HTML 5</h2>
+            <div class="progress-container">
+                <div class="web1">90%</div>
+            </div>
+
+            <h2>CSS 3</h2>
+            <div class="progress-container">
+                <div class="web2">80%</div>
+            </div>
+
+            <h2>JavaScript</h2>
+            <div class="progress-container">
+                <div class="web3">75%</div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<br><br><br>
+
+<!--Contacts-->
+
+<section class="contact_sujet_desc">
+    <div class="contact">
+        <p class="text_contact">Vous avez un <strong>projet en tête</strong> ?<br><br>N'hésitez pas à me <strong>contacter</strong> !</p>
+        <form action="/submit-form" method="post">
+            <div class="nom_prenom">
+                <div class="prenom">
+                    <label for="prenom">Votre prénom</label><br>
+                    <input type="text" id="prenom" size="30px" placeholder="Ibrahima">
+                </div>
+
+                <div class="nom">
+                    <label for="nom">Votre nom</label><br>
+                    <input type="text" id="nom" size="30px" placeholder="Sankara">
+                </div>
+
+            </div>
+                        <br><br>
+            </div>
+
+            <div class="sujet_desc">
+
+                <div class="sujet">
+                    <label for="subject">Votre sujet</label><br>
+                    <input type="text" id="subject" placeholder="devéloppement web" size="85px">
+
+                </div>
+                <div class="desc">
+                    <label for="describe"></label><br>
+                    <textarea name="description" id="describe" rows="20" cols="80"></textarea>
+
+                </div>
+
+            </div>
+
+            <div>
+                <button type="submit" class="btn">Envoyer</button>
+            </div>
+
+        </form>
+</section>
+
+<br><br><br><br><br><br><br><br>
+<!--Bas de page-->
+
+<footer class="footer">
+    <div>
+        <p>Disigned by <strong>Ibrahima</strong> with HTML CSS JS.</p>
+    </div>
+
+    <div>
+        <p>Tout droit reservé - 2025</p>
+    </div>
+    
+  </footer>
+  <br>
+
+<!-- Insertion de JavaScript en HTML-->
+<script src="Script_java.js"></script>
+</body>
+
+
+
+</html>
