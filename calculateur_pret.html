@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta name="auteur" content="Ibrahima SANKARA">
+<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+
+<title>Exercice 4 de la semaine 5</title>
+
+
+
+</head>
+
+<body>
+  
+    <h1>Calculateur de prêt hypothécaire</h1>
+   
+    <label for="montant">Saisir le montant du prêt :</label>
+    <input type="number" id="montant" min="0" oninput="PaiementPret();">
+
+    <br><br>
+
+    <label for="taux">Saisir le taux d'interêt du prêt :</label>
+    <input type="number" id="taux" min="0" oninput="PaiementPret();">
+
+    <br><br>
+
+    <label for="duree">Saisir la durée du prêt en année :</label>
+    <input type="number" id="duree" min="0" oninput="PaiementPret();">
+    <br><br>
+    
+    <p id="paiement">Le montant du paiement mensuel du prêt hypothécaire est : </p>
+
+<!-- Insertion de JavaScript en HTML-->
+  <script src="script_javascript.js"></script>
+
+</body>
+
+
+
+</html>
